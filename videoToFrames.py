@@ -7,7 +7,6 @@ video_folder_path = "C:/Users/manav/Desktop/New folder"
 
 # Loop over all MP4 files in folder
 for video_file_name in os.listdir(video_folder_path):
-    print(video_file_name)
     if video_file_name.endswith('.mp4'):
         # Read the video from file
         video_file_path = os.path.join(video_folder_path, video_file_name)
