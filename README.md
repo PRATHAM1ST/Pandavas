@@ -20,6 +20,10 @@ Our solution utilizes edge detection techniques to identify the number plate fro
 ## Limitations of Our Solution:
 Our solution might face difficulties in identifying number plates in low-light conditions, blurry images, or images with partially obstructed number plates. Our solution assumes that the license plates are placed in a standard position on the vehicle and might not be effective for vehicles with non-standard number plate positioning.
 
+## Additional:
+https://colab.research.google.com/drive/1ELw9UbHEJNdwbXGxrwwqWc44wFH6ntH3?usp=sharing
+
+
 ## References:
 - ChatGPT
 - JavaPoint
