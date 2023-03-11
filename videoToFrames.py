@@ -5,7 +5,7 @@ import os
 # Set path to folder containing MP4 files
 video_folder_path = "C:/Users/manav/Desktop/New folder"
 
-# Loop over all MP4 files in folder
+# Loop over all MP4 files in folder 
 for video_file_name in os.listdir(video_folder_path):
     if video_file_name.endswith('.mp4'):
         # Read the video from file
