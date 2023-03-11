@@ -10,7 +10,7 @@ for video_file_name in os.listdir(video_folder_path):
     if video_file_name.endswith('.mp4'):
         # Read the video from file
         video_file_path = os.path.join(video_folder_path, video_file_name)
-        cam = cv2.VideoCapture(video_file_path)
+        cam = cv2.VideoCapture(video_file_path) 
 
         # Create subdirectory for saving frames
         video_file_basename = os.path.splitext(video_file_name)[0]
